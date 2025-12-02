@@ -73,15 +73,3 @@ def predict_image(image_path):
     return label
 ```
 
----
-
-## 🧑‍💻 For Backend Developers
-
-Your backend can load the model and encoder from the `model/` folder and expose an API endpoint such as:
-
-- `/predict` → to get disease prediction from an uploaded cow image
-
-No retraining is needed.  
-The model is ready for deployment.
-
----
